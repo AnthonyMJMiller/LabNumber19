@@ -15,5 +15,5 @@ Select Distinct customerID from orders where orderid = 10290;
 SELECT orders.OrderID, customers.CustomerID from orders inner join customers on orders.CustomerID = customers.CustomerID;
 SELECT orders.OrderID, customers.CustomerID from orders left join customers on orders.CustomerID = customers.CustomerID;
 SELECT orders.OrderID, customers.CustomerID from orders right join customers on orders.CustomerID = customers.CustomerID;
-select firstname from employees where reportsto = null;
+select firstname from employees where reportsto is null;
 select firstname from employees where reportsto = 2;
